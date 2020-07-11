@@ -11,6 +11,9 @@
     "start": "parcel src/index.html",
     "build-prod": "parcel build src/index.html"
   },
+  "staticFiles": {
+    "staticPath": "node_modules/mupdf-js/dist"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -22,8 +25,9 @@
     "@types/react": "^16.9.42",
     "@types/react-dom": "^16.9.8",
     "autoprefixer": "^9.8.5",
-    "mupdf-js": "^1.0.1",
+    "mupdf-js": "^1.0.2",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.4.3",
     "postcss-modules": "^3.2.0",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
