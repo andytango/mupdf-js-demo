@@ -3401,10 +3401,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mupdf-js@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mupdf-js/-/mupdf-js-1.0.2.tgz#45f9eb2e1b310d6fc5f12ad7971d659f5af83233"
-  integrity sha512-nmyYl/4j4xjxqEsxFbr9ZrWYEoUeA8szA3FLLbNJVdm4ywXqi4T2xcSiqwif+bI/GdTeRSkjBIIhUxqIfksBqg==
+mupdf-js@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mupdf-js/-/mupdf-js-1.0.4.tgz#67d7b4a961e1ba22c82bea2c93dd842888198160"
+  integrity sha512-rv5AgFB8rKea1A6ft0cQjXx2GFvTLd038xlXa1Qln5lNCF98N4CKzO6exRJA/U3v760G9f2ENHu+jIinDMUhyQ==
 
 nan@^2.12.1:
   version "2.14.1"
