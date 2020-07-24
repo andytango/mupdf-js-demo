@@ -5,7 +5,7 @@ import { ConversionMode } from "./ConversionMode";
 const initialState = {
   processing: false,
   file: null as File | null,
-  mode: ConversionMode.SVG,
+  mode: ConversionMode.PNG,
   error: "",
   output: [] as string[],
 };
@@ -92,16 +92,15 @@ function App() {
             disabled={processing}
             value={processorState.mode}
           >
-            <option value={ConversionMode.SVG}>SVG</option>
             <option value={ConversionMode.PNG}>PNG</option>
+            <option value={ConversionMode.SVG}>SVG</option>
             <option value={ConversionMode.HTML}>HTML</option>
           </select>
         </div>
       </div>
       {processing && (
         <div className="fixed w-full h-full flex items-center justify-center z-20">
-          <div className="absolute inset bg-gray-200 opacity-25">
-          </div>
+          <div className="absolute inset bg-gray-200 opacity-25"></div>
           <div className="p-4 bg-white rounded-md">
             {processing ? "Processing..." : error}
           </div>
