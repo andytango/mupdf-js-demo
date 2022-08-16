@@ -49,12 +49,14 @@ function App() {
 
   const handleModeChange = useCallback(
     (e) => {
+      const mode = e.target.value;
+
       if (file) {
         setProcessorState({
           ...processorState,
           processing: true,
           output: [],
-          mode: e.target.value,
+          mode,
         });
         processFile(file, mode).then((output: string[]) =>
           setProcessorState({
@@ -62,10 +64,11 @@ function App() {
             processing: false,
             error: "",
             output,
+            mode,
           })
         );
       } else {
-        setProcessorState({ ...processorState, mode: e.target.value });
+        setProcessorState({ ...processorState, mode });
       }
     },
     [processorState]
