@@ -1509,14 +1509,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001093:
-  version "1.0.30001099"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001099.tgz#540118fcc6842d1fde62f4ee5521d1ec6afdb40e"
-  integrity sha512-sdS9A+sQTk7wKoeuZBN/YMAHVztUfVnjDi4/UV3sDE8xoh7YR12hKW+pIdB3oqKGwr9XaFL2ovfzt9w8eUI5CA==
+  version "1.0.30001377"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz"
+  integrity sha512-I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==
 
 caniuse-lite@^1.0.30001097:
-  version "1.0.30001097"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001097.tgz#1129c40c9f5ee3282158da08fd915d301f4a9bd8"
-  integrity sha512-TeuSleKt/vWXaPkLVFqGDnbweYfq4IaZ6rUugFf3rWY6dlII8StUZ8Ddin0PkADfgYZ4wRqCdO2ORl4Rn5eZIA==
+  version "1.0.30001377"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz"
+  integrity sha512-I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -3516,10 +3516,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mupdf-js@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/mupdf-js/-/mupdf-js-1.0.4.tgz#67d7b4a961e1ba22c82bea2c93dd842888198160"
-  integrity sha512-rv5AgFB8rKea1A6ft0cQjXx2GFvTLd038xlXa1Qln5lNCF98N4CKzO6exRJA/U3v760G9f2ENHu+jIinDMUhyQ==
+mupdf-js@^1.1.0-rc.1:
+  version "1.1.0-rc.1"
+  resolved "https://registry.yarnpkg.com/mupdf-js/-/mupdf-js-1.1.0-rc.1.tgz#586144b55495661b850f1d4e93e13f8f687e239c"
+  integrity sha512-C713nsfCMPCq4hrIF/HtqKd2KcYVN56qvlZB5WRJoBcdckVhOL4PQrXockRYD86WvI06vkVR/+SvHOb9RgrGbw==
 
 nan@^2.12.1:
   version "2.14.1"
