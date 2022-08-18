@@ -122,7 +122,7 @@ function App() {
 
   return (
     <>
-      <div className="fixed inset-x-0 top-0 p-3 bg-white shadow-sm flex items-center justify-between z-10">
+      <div className="fixed inset-x-0 top-0 p-3 bg-white shadow-sm flex items-center justify-between z-10 select-none">
         <div>
           <span className="mr-4 font-bold">MuPDF.js Demo</span>
         </div>
